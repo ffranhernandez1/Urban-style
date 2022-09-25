@@ -243,6 +243,25 @@ section {
 	align-items: center ;
 }
 
+.info-3 {
+	height: 550px;
+	display: flex;
+	position: relative;
+	bottom: 30px;
+	justify-content: space-around;
+	align-items: center ;
+	display: none;
+}
+
+.info-4 {
+	height: 550px;
+	display: flex;
+	position: relative;
+	bottom: 30px;
+	justify-content: space-around;
+	align-items: center ;
+}
+
 .img-nosotros {
 	display: inline-block;
 }
@@ -373,7 +392,6 @@ section {
 	background: transparent;
 	color: #000;
 	font-size: 20px;
-
 }
 
 .form__input:focus{
@@ -400,7 +418,6 @@ section {
 @media screen and (max-width: 576px) {
     .container {
 		width: 100%;
-		
 		margin: 0 0px;	
 		text-align: center;
 	}
@@ -435,13 +452,23 @@ section {
 
 	.container-2 {
 		width: 100%;
-		max-width: none;
+		
 		margin: 0px;
-		height: 700px;
+		height: 550px;
 	}
 
 	.info {
 		height: 700px;
+		display: none;
+		position: relative;
+		bottom: 30px;
+		justify-content: space-around;
+		align-items: center ;
+		text-align: center;
+	}
+
+	.info-3 {
+		height: 600px;
 		display: inline;
 		position: relative;
 		bottom: 30px;
@@ -455,7 +482,7 @@ section {
 		width: 100%;
 		text-align: center;
 		position: relative;
-		top: 70px;
+		top: 120px;
 	}
 
 	.img-nosotros img{
@@ -517,6 +544,11 @@ section {
 		text-decoration: none;
 		color: #fff;	
 	}
+	
+    footer{
+		position: relative;
+		top: 20px;
+	}
 
 	.container-3 {
 		margin: 0 20px;
@@ -534,7 +566,7 @@ section {
 	.grid-productos {
 		margin-top: 50px;
 		display: block;
-		margin-bottom: 100px;
+		margin-bottom: 0px;
 		text-align: center;
 	}
 	
@@ -545,6 +577,54 @@ section {
 		display: inline-block;
 		margin-left: 0px;
 		margin-bottom: 40px;
+	}
+
+	.info-4 {
+	    display: inline-block;
+		height: auto;
+		position: relative;
+		bottom: 30px;
+		justify-content: none;
+		align-items: none ;
+		text-align: center;
+	}
+
+	.form{
+		min-width: 100%;
+		padding: 50px 0;
+		order: 5;
+		font-size: 20px;
+		text-align: center;
+		display: inline-block;
+	}
+	
+	.form__input{
+		width: 100%;
+		padding: 6px;
+		margin: 7px 0;
+		border: none;
+		border-bottom: 3px solid #97FFFC;
+		background: transparent;
+		color: #000;
+		font-size: 16px;
+	}
+	
+	.form__input:focus{
+		outline: none;
+		border-bottom: 3px solid #97FFFC;
+		font-size: 16px;
+	}
+	
+	.lista-contacto {
+		font-size: 16px;
+		text-decoration: none;
+		color: #000;
+		text-align: center;
+		display: inline-block;
+	}
+
+	.container-3 {
+		margin: 0 20px;
 	}
 }
 
