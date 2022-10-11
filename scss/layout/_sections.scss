@@ -1,0 +1,153 @@
+.container-2 {
+	width: 100%;
+	max-width: 122rem;
+	margin: 0 300px;
+}
+	
+.info {
+	height: 550px;
+	display: flex;
+	position: relative;
+	bottom: 30px;
+	justify-content: space-around;
+	align-items: center ;
+}
+
+.info-3 {
+	height: 550px;
+	display: flex;
+	position: relative;
+	bottom: 30px;
+	justify-content: space-around;
+	align-items: center ;
+	display: none;
+}
+
+.info-4 {
+	height: 550px;
+	display: flex;
+	position: relative;
+	bottom: 30px;
+	justify-content: space-around;
+	align-items: center ;
+}
+
+.img-nosotros {
+	display: inline-block;
+}
+
+.img-nosotros img{
+	display: inline-block;
+	width: 500px;
+	height: 400px;
+	border: 5px solid #000;
+}
+
+.info-2 {
+	display: inline-block;
+	width: 400px;
+	text-align: center;
+}
+
+.info-2 p {
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.info-2 a {
+	color: #fff;
+	border: 1px solid #525252;
+	padding: 15px;
+	font-size: 15px;
+	position: relative;
+	bottom: -15px;
+	background: #525252;
+	border-radius: 6px;
+}
+
+.info-2 a:hover{
+	background: #97FFFC;
+}
+
+.circulo {
+	font-size: 1.5rem;
+	color: #97FFFC;
+	margin: 0 1.6rem;
+	text-align: center;
+}
+
+.h2-sub2 {
+	text-align: center;
+	font-size: 26px;
+	color: #000;
+}
+
+.grid-productos {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-bottom: 100px;
+}
+
+.grid-productos img{
+	width: 400px;
+	height: 400px;
+	border: 2px solid #000;
+	display: inline-block;
+	margin-left: 31px;
+	margin-bottom: 40px;
+}
+
+.container-3 {
+	
+	margin: 0 255px;
+}
+
+.titulo-2 {
+	text-align: center;
+	color: #000;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 40px;
+}
+
+.form{
+	min-width: 400px;
+	padding: 30px;
+	order: 5;
+	font-size: 20px;
+}
+
+.form__input{
+	width: 100%;
+	padding: 6px;
+	margin: 7px 0;
+	border: none;
+	border-bottom: 3px solid #97FFFC;
+	background: transparent;
+	color: #000;
+	font-size: 20px;
+}
+
+.form__input:focus{
+	outline: none;
+	border-bottom: 3px solid #97FFFC;
+	font-size: 20px;
+}
+
+.form textarea{
+	min-height: 120px;
+	resize: none;
+}
+
+.lista-contacto {
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+}
+
+.lista-contacto svg {
+	margin: 0px 7px;
+}
